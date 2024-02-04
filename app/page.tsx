@@ -9,7 +9,7 @@ const Home = () => {
 
       <Cards data={data} />
 
-      <button className='bg-[#1B264F] text-white text-[17px] tracking-widest leading-[60px] px-14 rounded-xl shadow-2xl'>Get Started</button>
+      <button className='uppercase bg-[#1B264F] text-white text-[17px] tracking-widest leading-[60px] px-14 rounded-xl shadow-2xl'>Get Started</button>
     </main>
   )
 }
