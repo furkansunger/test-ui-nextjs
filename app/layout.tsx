@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Poppins, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
-export const poppins = Poppins({ 
+const poppins = Poppins({ 
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-poppins',
